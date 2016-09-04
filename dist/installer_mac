@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp ./sd /usr/local/bin
