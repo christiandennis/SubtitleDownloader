@@ -47,6 +47,10 @@ missing module named cStringIO.StringIO - imported by cStringIO, gettext, pprint
 missing module named struct.calcsize - imported by struct, ctypes
 missing module named _struct.__doc__ - imported by _struct, struct
 missing module named _struct._clearcache - imported by _struct, struct
+missing module named _json.make_encoder - imported by _json, json.encoder
+missing module named _json.encode_basestring_ascii - imported by _json, json.encoder
+missing module named _json.scanstring - imported by _json, json.decoder
+missing module named _json.make_scanner - imported by _json, json.scanner
 missing module named sys.getwindowsversion - imported by sys, platform
 missing module named sys.version_info - imported by sys, requests.packages.chardet
 missing module named sys.py3kwarning - imported by sys, httplib
@@ -259,10 +263,6 @@ missing module named cookielib.LoadError - imported by cookielib, _LWPCookieJar,
 missing module named cookielib.MISSING_FILENAME_TEXT - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
 missing module named cookielib.FileCookieJar - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
 missing module named cookielib.iso2time - imported by cookielib, _LWPCookieJar
-missing module named _json.make_encoder - imported by _json, json.encoder
-missing module named _json.encode_basestring_ascii - imported by _json, json.encoder
-missing module named _json.scanstring - imported by _json, json.decoder
-missing module named _json.make_scanner - imported by _json, json.scanner
 missing module named simplejson - imported by requests.compat
 missing module named vms_lib - imported by platform
 missing module named _subprocess.STD_OUTPUT_HANDLE - imported by _subprocess, subprocess

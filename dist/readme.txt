@@ -1,1 +1,4 @@
-To install on mac: Copy sd to "/usr/local/bin"
+To install on mac: 
+Run “installer_mac” script
+OR
+Copy sd to "/usr/local/bin"
