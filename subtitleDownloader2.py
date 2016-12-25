@@ -79,11 +79,20 @@ def help():
     print("\nSubtitleDownloader will skip subfolder that SubtitleDownloader has downloaded its subtitle before. Edit/delete file '.subtitleDownloaderData' to modify the list of processed folder.")
 
 
+def clear():
+    try:
+        os.remove('.subtitleDownloaderData')
+    except:
+        pass
+
+
 if __name__ == "__main__":
     if len(sys.argv) == 1:
         scan(os.getcwd())
     elif len(sys.argv) == 2 and sys.argv[1] == "help":
         help()
+    elif len(sys.argv) == 2 and sys.argv[1] == "clear":
+        clear()
     elif len(sys.argv) == 2:
         try:
             depthLimit = int(sys.argv[1])
